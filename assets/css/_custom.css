@@ -41,6 +41,34 @@
   transform: translateY(1rem);
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--color-border);
+  margin: 2rem 0;
+}
+
+/* ----------- */
+/* FORMATTING  */
+/* ----------- */
+
+
+/* ----------- */
+/* PAGE UNIQUE */
+/* ----------- */
+
+.about-image img {
+  float: left;
+  width: 220px;
+  height: auto;
+  margin: 0 1.5rem 1rem 0;
+  border-radius: 8px;
+}
+
+.about-wrap {
+  display: block;
+}
+
 /* Colour Palette */
 .palette-grid {
   display: grid;
@@ -75,4 +103,46 @@
 .swatch:hover {
   transform: scale(1.02);
   transition: 0.15s ease;
+}
+
+/* ----------- */
+/* COPYRIGHT   */
+/* ----------- */
+
+.license {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.license-icons {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.license-icons img {
+  width: 14px;
+  height: 14px;
+}
+
+/* LIGHT MODE */
+.icon-dark {
+  display: none;
+}
+
+.icon-light {
+  display: inline-block;
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  .icon-light {
+    display: none;
+  }
+
+  .icon-dark {
+    display: inline-block;
+  }
 }

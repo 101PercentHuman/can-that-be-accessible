@@ -1,7 +1,7 @@
 +++
 date = '2026-06-19T18:21:47+10:00'
 draft = false
-title = 'Colour Palette'
+title = 'My Colour Palette'
 author = 'William'
 +++
 
