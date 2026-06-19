@@ -1,0 +1,13 @@
+{{ define "main" -}}
+<main id="main-content" class="main layout__main" tabindex="-1">
+<header>
+<h1 class="title">{{ .Title }}</h1>
+</header>
+
+{{ .Content }}
+
+{{ range .Pages.ByTitle -}}
+{{ .Render "taxonomy-summary" }}
+{{ end -}}
+</main>
+{{ end -}}

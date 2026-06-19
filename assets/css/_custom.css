@@ -13,26 +13,32 @@
   --color-blue: #80CDF3;       /* Light Blue */
   --color-yellow: #EBC06F;     /* Pale Yellow */
 
-  --ff-body: "Open Sans", system-ui, sans-serif;
-  --ff-headings: "Open Sans", system-ui, sans-serif;
+   --ff-body: "Franklin Gothic Book", "ITC Franklin Gothic", Arial, system-ui, sans-serif;
+   --ff-headings: "Franklin Gothic Demi", "Franklin Gothic Medium", Arial, system-ui, sans-serif;
 }
 
 .skip-link {
-  position: absolute;
-  left: -9999px;
+  position: fixed;
   top: 0;
-  z-index: 9999;
-}
+  left: 0;
 
-.skip-link:focus {
-  left: 1rem;
-  top: 1rem;
+  transform: translateY(-120%);
+  z-index: 99999;
+
   padding: 0.75rem 1rem;
   background: #0F3653;
   color: #FFFFFF;
-  text-decoration: none;
+
   font-weight: 700;
+  text-decoration: none;
   border: 2px solid #FFFFFF;
+
+  display: inline-block;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(1rem);
 }
 
 /* Colour Palette */
