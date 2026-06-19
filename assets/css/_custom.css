@@ -1,0 +1,72 @@
+:root {
+  /* My palette */
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+
+  /* Primary brand */
+  --color-brand: #0F3653;      /* Dark Blue */
+
+  /* Secondary brand */
+  --color-brand-alt: #332F41;  /* Dark Purple */
+
+  /* Semantic colours */
+  --color-blue: #80CDF3;       /* Light Blue */
+  --color-yellow: #EBC06F;     /* Pale Yellow */
+
+  --ff-body: "Open Sans", system-ui, sans-serif;
+  --ff-headings: "Open Sans", system-ui, sans-serif;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 9999;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  padding: 0.75rem 1rem;
+  background: #0F3653;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid #FFFFFF;
+}
+
+/* Colour Palette */
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.swatch {
+  padding: 1rem;
+  border-radius: 12px;
+  min-height: 100px;
+  display: flex;
+  align-items: flex-end;
+  font-family: system-ui, sans-serif;
+  outline: 1px solid rgba(0,0,0,0.5);
+}
+
+.swatch-text {
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+.swatch-text.light {
+  color: #ffffff;
+}
+
+.swatch-text.dark {
+  color: #000000;
+}
+
+.swatch:hover {
+  transform: scale(1.02);
+  transition: 0.15s ease;
+}

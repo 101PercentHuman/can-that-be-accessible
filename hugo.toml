@@ -1,0 +1,42 @@
+baseURL = "https://example.com/"
+languageCode = "en-au"
+title = "Can That Be Accessible?"
+theme = "zen"
+
+[[menus.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+[[menus.main]]
+name = "Posts"
+pageRef = "/posts"
+weight = 20
+[[menus.main]]
+name = "About"
+pageRef = "/about"
+weight = 30
+
+[params]
+piwikSiteId = ""
+piwikTrackerUrl = ""
+plausibleSiteID = ""
+plausibleTrackerURL = ""
+description = "Can something be accessible? Let's find out."
+logo = true
+logoPath = "images/logo.svg"
+logoWidth = 250
+menuInHeader = true
+mobileMenu = true
+poweredby = true
+sidebar = true
+submitted = true
+themeColor = "#0D3653"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[services]
+  [services.googleAnalytics]
+    ID = ""
+
+enableRobotsTXT = true
