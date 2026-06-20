@@ -1,5 +1,5 @@
 baseURL = "https://can-that-be-accessible.neocities.org/"
-languageCode = "en-au"
+defaultContentLanguage = 'en'
 title = "Can That Be Accessible?"
 theme = "zen"
 
