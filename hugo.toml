@@ -17,6 +17,7 @@ pageRef = "/about"
 weight = 30
 
 [params]
+dateformat = "2 January 2006"
 piwikSiteId = ""
 piwikTrackerUrl = ""
 plausibleSiteID = ""
@@ -25,6 +26,7 @@ description = "Can something be accessible? Let's find out."
 logo = true
 logoPath = "images/logo.svg"
 logoWidth = 250
+mainSections = ""
 menuInHeader = true
 mobileMenu = true
 poweredby = true
