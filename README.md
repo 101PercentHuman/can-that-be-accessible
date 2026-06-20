@@ -16,6 +16,6 @@ I am hosting the files on Github for version control, and for automated pushing 
 
 ## Zen
 
-I am using what my forked version of [Zen by frjo](https://github.com/frjo/hugo-theme-zen). As you'll find, the entire theme is there in the repo. I did this so that I can modify Zen to be even more accessible than it currently is.
+I am using what my forked version of [Zen by frjo](https://github.com/frjo/hugo-theme-zen) (version 7.0.1). As you'll find, the entire theme is there in the repo. I did this so that I can modify Zen to be even more accessible than it currently is. Hugo was having difficulties compiling Zen when I had it as a module.
 
-I take no issue if you want to use the modified Zen I have here.
+I take no issue if you want to use the modified Zen I have here. Note that my changes are all done within the layouts folder in the main repo—using proper Hugo overrides.
