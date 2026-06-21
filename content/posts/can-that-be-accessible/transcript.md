@@ -1,7 +1,7 @@
 +++
 date = '2026-06-11T18:39:54+10:00'
 draft = false
-title = 'Can a Medieval Fayre be accessible? Transcript'
+title = 'Transcript – Can a Medieval Fayre be accessible?'
 author = 'William'
 +++
 

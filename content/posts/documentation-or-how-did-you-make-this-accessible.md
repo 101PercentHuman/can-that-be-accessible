@@ -1,7 +1,7 @@
 +++
 date = '2026-06-21T01:39:54+10:00'
 draft = false
-title = 'Documentation – Or how did you make this accessible?'
+title = 'Documentation – How did you make this accessible?'
 author = 'William'
 +++
 
@@ -22,7 +22,7 @@ I went with [Zen by frjo](https://github.com/frjo/hugo-theme-zen), which is lice
 
 > [Zen] uses HTML5 with a modern CSS grid and flex layout. Care has been taken to produce semantic and accessible code.
 
-While other Hugo themes might not think about accessibility, Zen was built with accessibility in mind. I found Zen thanks to [a forum post made by another accessibility-interested Hugo user](https://discourse.gohugo.io/t/which-theme-has-very-good-accessability-or-is-even-wcag-compliant/46960). As suggested in that thread, I ran the Zen demo site through [WAVE web accessibility evaluation tool](https://wave.webaim.org/). With an AIM Score of 10 out of 10—and with no red flags on closer look—Zen was the perfect theme for me to use.
+While other Hugo themes might not think about accessibility, Zen was built with accessibility in mind. I found Zen thanks to [a forum post made by another accessibility-interested Hugo user](https://discourse.gohugo.io/t/which-theme-has-very-good-accessability-or-is-even-wcag-compliant/46960). As suggested in that thread, I ran the Zen demo site through [WAVE web accessibility evaluation tool](https://wave.webaim.org/). With an AIM Score of 10 out of 10—and no red flags on my manual inspection—Zen was the perfect theme for me to use.
 
 However, I found that I could go further with accessibility.
 

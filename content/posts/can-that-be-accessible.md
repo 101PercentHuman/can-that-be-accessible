@@ -28,7 +28,7 @@ William explores whether the Blacktown City Medieval Fayre was accessible for pe
 
 ## Bonus facts
 
-- The ship featured in the video is HMS *Victory*, the oldest ship that is still currently commissioned in a navy.
 - The "cool weapon" is the Tsar Cannon, which is a gigantic cannon that was built in 1586. The cannon was likely fired once in its history, but because of its ornate and intricate design, it's best to not fire it—especially on its current carriage.
+- The ship featured in the video is HMS *Victory*, the oldest ship that is still currently commissioned in a navy.
 - The image used to depict the "Sarumen" and "Saurons" is just Merlin the Wizard.
 - I wore a blazer and my two high school HSIE medals as an outfit. I wanted to look like a well-read gentlemen. However, I ended looking more like someone stealing valour.

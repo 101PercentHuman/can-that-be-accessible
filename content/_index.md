@@ -18,6 +18,10 @@ Let's see who did it right and who didn't, and see what we can learn.
 
 A one-episode video series that explores if something can be accessible. William goes to events and see what accessibility features are there. After all, everyone should be able to enjoy nerdy pursuits in life!
 
-[Watch the pilot and learn more about *Can That Be Accessible?*](/posts/can-that-be-accessible)
+You can watch *Can a Medieval Fayre be accessible?* on YouTube.
+
+{{< youtube p_RIlw-MekE >}}
+
+[Learn more about and find other versions of *Can a Medieval Fayre be accessible?*](/posts/can-that-be-accessible)
 
 ---
