@@ -105,9 +105,37 @@ hr {
   transition: 0.15s ease;
 }
 
-/* ----------- */
-/* COPYRIGHT   */
-/* ----------- */
+/* Alternative formats */
+
+.alternative-formats {
+  border: 2px solid var(--color-border);
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  background: var(--color-row-odd);
+}
+
+.alternative-formats h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.alternative-formats ul {
+  margin-bottom: 0;
+}
+
+/* About */
+
+.interests-list {
+  margin: 0.5rem 0;
+  padding-left: 15em;
+}
+
+.interests-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Copyright */
 
 .license {
   display: flex;

@@ -19,11 +19,13 @@ Here's a photo of me at the National Portrait Gallery in Canberra. No, I don't l
 I identify as an Autistic person. I don't have very high support needs. My Autism manifests in general social awkwardness, an inability to maintain eye contact, and being really sensitive to squeaking noises.
 
 On the other hand, Autism means I can get intensely focused on the most random of topics. Here are the phases I've been through recently:
-- Sudoku
-- [Making websites using Hugo](https://gohugo.io/)
-- Sumo wrestling
-- Epaulettes
-- Building computers
+<ul class="interests-list">
+  <li>Sudoku</li>
+  <li><a href="https://gohugo.io/">Making websites using Hugo</a></li>
+  <li>Sumo wrestling</li>
+  <li>Epaulettes</li>
+  <li>Building computers</li>
+</ul>
 
 I guess you can lump digital accessibility in with that, however, my day-time job relates a bit to accessibility—unlike literally everything listed above.
 
