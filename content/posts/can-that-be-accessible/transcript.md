@@ -8,8 +8,8 @@ author = 'William'
 <div class="alternative-formats">
 You can:
 <ul>
-	<li><a href="/downloads/transcripts/transcript - Can a Medieval Fayre be accessible.pdf">download this transcript as a PDF document</a> (PDF, 85.0 KB).</li>
-	<li><a href="/downloads/transcripts/transcript - Can a Medieval Fayre be accessible.docx">download this transcript as a Word document</a> (DOCX, 25.4 KB).</li>
+	<li><a href="/downloads/transcripts/Transcript - Can a Medieval Fayre be accessible.pdf">download this transcript as a PDF document</a> (PDF, 85.0 KB).</li>
+	<li><a href="/downloads/transcripts/Transcript - Can a Medieval Fayre be accessible.docx">download this transcript as a Word document</a> (DOCX, 25.4 KB).</li>
 	<li><a href="https://youtu.be/p_RIlw-MekE">watch the full video on YouTube</a>.</li>
 </ul>
 </div>
