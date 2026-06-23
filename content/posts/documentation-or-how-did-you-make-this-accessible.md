@@ -1,6 +1,6 @@
 +++
 date = '2026-06-23T01:39:54+10:00'
-draft = false
+draft = true
 title = 'Documentation – How did you make this accessible?'
 author = 'William'
 +++
@@ -91,23 +91,14 @@ This also required changing the body for all pages to have the tag "main-content
 </main>
 ```
 
-That likely isn't good indenting hygiene, but it works. Now every page has a "main-content" that we can skip to using the "Skip to main content" button that only appears when you go though the tab order.
+That likely isn't good indenting hygiene, but it works. Now every page has a "main-content" that we can skip to using the "Skip to main content" button that only appears when you go through the tab order.
 
-### Other elements
+### Assessment
 
-#### Responsiveness
-I can only take credit for selecting Zen as my theme. Zen features a responsive design that scales well for mobile devices. I tested my website using my iPhone 16e. On my phone, the website uses a hamburger menu rather than the row of headers on desktop. I was satisfied that it was still usable and easy to navigate.
+When testing the <a href="https://can-that-be-accessible.neocities.org/posts/should-accessibility-ever-be-delinked-from-disability/"><i>Should accessibility ever be de-linked from disability?</i></a> page using WebAIM WAVE, I received an AIM Score of 9.9 out of 10 with zero errors and four alerts. I am very satisfied that the skip link was identified as a feature.
 
-#### Colour palette
-I outline [how I chose my colour palette in a separate post](/posts/colour-palette/). When choosing the colours, I made sure that they were all WCAG AAA compliant when acting as a background black or white.
+I lost 0.1 score because of two redundant links, a link to a Word document, and a link to a PDF document. For the first one, I chose to have the logo and website title link to the home page. I preferred keeping them as separate elements since the title should remain text. I understand why I am deducted for linking to a Word and PDF document when I made both accessible: WAVE cannot check the documents’ accessibility. Ironically, I offered different formats to improve accessibility and increase choice.
 
-#### Font 
-I chose Franklin Gothic as the typeface of choice. It san-serif and seemed easy to read. It is also a widely available font, meaning most devices (and their browsers) would be able to load it. Nevertheless, in the website's CSS, there are contingency fonts.
-
-```
---ff-body: "Franklin Gothic Book", "ITC Franklin Gothic", Arial, system-ui, sans-serif;
---ff-headings: "Franklin Gothic Demi", "Franklin Gothic Medium", Arial, system-ui, sans-serif;
-```
 
 ## 2. YouTube
 
@@ -131,6 +122,8 @@ As a small note, I mainly stuck to [Pexels](https://www.pexels.com/) stock image
 
 ## 3. Website Documents (PDF and DOCX)
 
+### Approach
+
 I took the approach of having website documents (mainly PDF and DOCX files) be alternative versions of content. This was because I made sure the HTML webpages were generally accessible. However, this did not mean I neglected the downloadable files.
 
 The Word docs are very simple in format. I was careful to make use of correct semantic structure, mainly that there is only one H1-level heading, which is the title of the document. I also set the title of the document in the metadata.
@@ -138,6 +131,14 @@ The Word docs are very simple in format. I was careful to make use of correct se
 When you set up a Word doc well, you can easily make an accessible PDF. This was the case. I did not perform any major remediation of the PDFs aside from turning some blank space into artefacts. I used Adobe Acrobat to check the accessibility of the PDFs. I manually checked the reading order. 
 
 As you will find in the DOCX and PDF versions of my [blog post about de-linking disability from accessibility](/posts/should-accessibility-ever-be-delinked-from-disability/), I made sure the caption text was at least 12 pt. By default, Word has the caption style as 9 pt, which can be more difficult to read. 
+
+### Assessments
+I tested the <a href="https://can-that-be-accessible.neocities.org/downloads/posts/Should accessibility ever be delinked from disability.pdf"><i>Should accessibility ever be de-linked from disability?</i> PDF version</a> using Adobe Acrobat. Because I made sure that the document was properly formatted in Word (i.e. using the heading styles, adding alt text to the image, and making use of the header and footer), there was no detected errors in the Acrobat accessibility checker aside from the standard two: logical reading order and colour contrast.
+
+I navigated the document using only the tab key and was satisfied it was logical. Having tested my colour palette using the WebAIM colour checker, I was also satisfied it passed the colour contrast test. 
+
+Therefore, I concluded that the PDF met accessibility standards.
+
 
 ## Reflections
 
