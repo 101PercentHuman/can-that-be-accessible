@@ -9,9 +9,41 @@ author = 'William'
 	This blog post is also available in multiple formats:<br>
 	<ul>
 		<li><a href="/downloads/posts/Documentation - How did you make this accessible.pdf">PDF version</a> (PDF, 108 KB)</li>
-		<li><a href="/downloads/posts/Documentation - How did you make this accessible</a> (DOCX, 243 KB)</li>
+		<li><a href="/downloads/posts/Documentation - How did you make this accessible.docx">Word version</a> (DOCX, 243 KB)</li>
 	</ul>
 </div>
+
+## Scope
+My portfolio is the *Can That Be Accessible?* website. 
+
+This is an exploration by one person about whether certain things can be accessible. I fundamentally believe that when you plan properly, you plan for accessibility. In the *Can a Medieval Fayre be accessible?* video, I explore whether a rustic, loud, and crowded event can be accessible while being immersive. In *Should accessibility ever be de-linked from disability?* I explore an underlying tension in justifications for accessibility. While a less practical than the video, this blog post is based on a real conversation I had at work about how we sell accessibility to a wider audience.
+
+My four documents are:
+<ul>
+  <li>
+    <a href="https://www.youtube.com/watch?v=p_RIlw-MekE&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Fcan-that-be-accessible.neocities.org%2F">
+      <i>Can a Medieval Fayre be accessible?</i>
+    </a> (Multimedia)
+  </li>
+
+  <li>
+    <a href="https://can-that-be-accessible.neocities.org/downloads/transcripts/Transcript%20-%20Can%20a%20Medieval%20Fayre%20be%20accessible.docx">
+      <i>Can a Medieval Fayre be accessible?</i> Word transcript
+    </a> (DOCX, 25 KB)
+  </li>
+
+  <li>
+    <a href="https://can-that-be-accessible.neocities.org/posts/should-accessibility-ever-be-delinked-from-disability/">
+      <i>Should accessibility ever be de-linked from disability?</i>
+    </a> (HTML)
+  </li>
+
+  <li>
+    <a href="https://can-that-be-accessible.neocities.org/downloads/posts/Should%20accessibility%20ever%20be%20delinked%20from%20disability.pdf">
+      <i>Should accessibility ever be de-linked from disability?</i> PDF version
+    </a> (PDF, 214 KB)
+  </li>
+</ul>
 
 ## Introduction
 
