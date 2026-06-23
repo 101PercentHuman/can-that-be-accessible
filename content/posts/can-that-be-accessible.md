@@ -21,8 +21,8 @@ William explores whether the Blacktown City Medieval Fayre was accessible for pe
 	<ul>
 		<li><a href="https://youtu.be/SPIc47fLIwc">Audio-described video</a> – also hosted on YouTube.</li>
 		<li><a href="transcript">HTML transcript</a> – video transcript as a web page.</li>
-		<li><a href="/downloads/transcripts/Transcript - Can a Medieval Fayre be accessible.pdf">PDF transcript</a> (PDF, 85.0 KB) – video transcript as a PDF.</li>
-		<li><a href="/downloads/transcripts/Transcript - Can a Medieval Fayre be accessible.docx">Word transcript</a> (DOCX, 25.4 KB) – video transcript as a Word document.</li>
+		<li><a href="/downloads/transcripts/Transcript - Can a Medieval Fayre be accessible.pdf">PDF transcript</a> (PDF, 85 KB) – video transcript as a PDF.</li>
+		<li><a href="/downloads/transcripts/Transcript - Can a Medieval Fayre be accessible.docx">Word transcript</a> (DOCX, 25 KB) – video transcript as a Word document.</li>
 	</ul>
 </div>
 

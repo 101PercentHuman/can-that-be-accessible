@@ -128,7 +128,6 @@ hr {
 
 .interests-list {
   margin: 0.5rem 0;
-  padding-left: 15em;
 }
 
 .interests-list li {
@@ -174,4 +173,25 @@ hr {
   .icon-dark {
     display: inline-block;
   }
+}
+
+/* BLOG */
+
+.blog-image {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.blog-image img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.blog-image figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: --color-brand-alt;
 }
